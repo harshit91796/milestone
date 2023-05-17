@@ -1,0 +1,108 @@
+body {
+  background-color: #242A32;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  gap: 20px;
+  
+}
+
+.btn{
+  background-color: #FCA311;
+  width: 100px;
+}
+/* .f{
+  flex: 1;
+} */
+
+img{
+   
+  
+  width: 80%;
+  height: 100%;
+  /* opacity: 50%; */
+  
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  /* background-color: #FCA311; */
+}
+
+.img{
+  position: relative;
+  /* background-color: #0eeb50; */
+  height: 50%;
+  width: 100%;
+ 
+}
+.pehle{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+  /* background-color: aqua; */
+  background-image: linear-gradient(to right,#242A32 ,transparent);
+  
+}
+
+/* main page  */
+
+.container{
+  display: flex;
+  /* background-color: #FCA311; */
+  width: 100%;
+  height: 50px;
+}
+
+.sea{
+ 
+  display: flex;
+  /* background-color: #00B7FF; */
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.search input{
+  all : unset;
+  background-color: aliceblue;
+  width: 400px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.search{
+ 
+  font-size: 20px;
+  
+}
+
+.home{
+  flex : 2;
+  text-align: center;
+  font-size: 20px;
+}
+
+.watchList{
+flex : 3;
+text-align: center;
+font-size: 20px;
+}
+
+h1{
+  color: aliceblue;
+}
